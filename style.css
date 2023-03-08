@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    background-color: #343434;
+}
+
+.flex-container,
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container-2 {
+    flex-direction: row;
+}
+
+.pages {
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    align-self: center;
+    margin-left: 80%;
+}
+
+a:link {
+    margin: 15px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    color: black;
+    font-weight: 600;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+}
+
+a:hover {
+    background-color: #D3D3D3;
+}
+
+input[type=text] {
+    align-self: center;
+    width: 50%;
+    border-radius: 20px;
+    padding: 10px 0px 10px 40px;
+    /* margin: 10px 0px 10px 0px; */
+    margin-top: 30px;
+    margin-bottom: 5px;
+    background-color: white;
+    background-image: url('search.png');
+    background-position: 10px 5px;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    font-size: 15px;
+    border-width: 3px;
+    border-color: black;
+}
+
+input[type=submit],
+#container-3 {
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: white;
+    font-weight: 600;
+}
+
+input[type=submit]:hover {
+    background-color: #D3D3D3;
+}
+
+#container-3:hover {
+    background-color: #D3D3D3;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Advanced Search</title>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <div class="pages">
+      <a
+        style="margin-left: 220px"
+        id="page-1"
+        href="/index.html"
+        target="_blank"
+        >Google Search</a
+      >
+    </div>
+    <h2 style="color: rgb(236, 98, 51)">Advanced Search</h2>
+    <hr />
+    <br />
+    <br /><br />
+    <div class="heading">
+      <h4 id="head1" style="color: white; font-weight: 700">
+        Find pages with...
+      </h4>
+    </div>
+    <br />
+    <form action="https://www.google.com/search">
+      <div class="field">
+        <label for="field1">all these words:</label>
+        <input
+          type="text"
+          class="textinput"
+          id="field1"
+          value=""
+          name="as_q"
+          placeholder="Type the important words: tri-colour rat terrier"
+        />
+      </div>
+      <br />
+      <div class="field">
+        <label for="field2">this exact word or phrase: </label>
+        <input type="text" class="textinput" id="field2" value="" name="as_epq"
+        placeholder="Put exact words in quotes: &quot;rat terrier&quot;" />
+      </div>
+      <br />
+      <div class="field">
+        <label for="field3">any of this words: </label>
+        <input
+          type="text"
+          class="textinput"
+          id="field3"
+          value=""
+          name="as_oq"
+          placeholder="Type OR between all the words you want: miniature OR standard"
+        />
+      </div>
+      <br />
+      <div class="field">
+        <label for="field4">none of these words: </label>
+        <input type="text" class="textinput" id="field4" value="" name="as_eq"
+        placeholder="Put a minus sign just before words that you don't want :- rodent, -&quot;Jack Russell&quot;" />
+      </div>
+      <br />
+      <input type="submit" value="Advanced Search" />
+    </form>
+  </body>
+</html>
